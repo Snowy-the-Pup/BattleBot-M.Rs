@@ -147,7 +147,7 @@ void main()
          if (MXK_BlockSwitchTo(eMXK_HMI)) 
          {
             printf("%c", ENDOFTEXT);
-            printf("Hello!! \n"); // displaying important information
+           // printf("Hello!! \n"); // displaying important information
             
             printf("rec: %u\n", dd.bte[0]);//display total byte value
             
